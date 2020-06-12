@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-font: 'Anonymous Pro', monospace;
+  --purple: #462255;
+  --dark-rose: #AA4465;
+  --blue-green: #93E1D8;
+  --light-blue-green: #DDFFF7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Anonymous Pro', monospace;
+  background-color: var(--purple);
+  color: var(--light-blue-green);
 }
