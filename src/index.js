@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.css';
-import App from './App';
+import Router from './components/Router';
 // import * as serviceWorker from './serviceWorker';
 
-render(<App />, document.querySelector('#root'))
+render(<Router />, document.querySelector('#root'))
 
 // ReactDOM.render(
 //   <React.StrictMode>
